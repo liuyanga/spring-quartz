@@ -8,7 +8,7 @@ import org.springframework.scheduling.quartz.QuartzJobBean;
   
 /** 
  * @author Administrator 
- * @date 2016Äê11ÔÂ23ÈÕ 
+ * @date 2016å¹´11æœˆ23æ—¥ 
  */  
 public class ExampleJob extends QuartzJobBean {  
       
@@ -17,7 +17,7 @@ public class ExampleJob extends QuartzJobBean {
     @Override  
     protected void executeInternal(JobExecutionContext context)  
             throws JobExecutionException {  
-        System.out.println(new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date()) + "Ö´ÐÐExampleJobµÄ¶¨Ê±ÈÎÎñ");  
+        System.out.println(new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date()) + "æ‰§è¡ŒExampleJobçš„å®šæ—¶ä»»åŠ¡");  
     }  
       
     public int getTimeout() {  
